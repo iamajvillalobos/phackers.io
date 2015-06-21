@@ -405,13 +405,13 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #477dca;
+  background-color: #FC5B63;
   border-radius: 3px;
   border: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -424,7 +424,7 @@ button {
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #2c5999;
+    background-color: #fb101c;
     color: #fff; }
   /* line 27, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_buttons.scss */
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
@@ -434,8 +434,8 @@ button {
 
 /* line 1, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_forms.scss */
 fieldset {
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
+  background-color: #d8d8d8;
+  border: 1px solid #BEBEBF;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
@@ -444,7 +444,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em; }
 
 /* line 16, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_forms.scss */
@@ -463,11 +463,11 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 select[multiple=multiple],
 textarea {
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #BEBEBF;
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -477,13 +477,13 @@ textarea {
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover,
   textarea:hover {
-    border-color: #c4c4c4; }
+    border-color: #a4a4a6; }
   /* line 48, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_forms.scss */
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border-color: #477dca;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    border-color: #FC5B63;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(252, 66, 75, 0.7);
     outline: none; }
 
 /* line 55, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_forms.scss */
@@ -545,14 +545,14 @@ table {
 
 /* line 9, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_tables.scss */
 th {
-  border-bottom: 1px solid #b7b7b7;
+  border-bottom: 1px solid #979799;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
 /* line 16, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_tables.scss */
 td {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #BEBEBF;
   padding: 0.75em 0; }
 
 /* line 21, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_tables.scss */
@@ -568,8 +568,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
-  color: #333;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #BEBEBF;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -580,7 +580,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -591,19 +591,19 @@ p {
 
 /* line 26, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_typography.scss */
 a {
-  color: #477dca;
+  color: #FC5B63;
   text-decoration: none;
   transition: color 0.1s linear; }
   /* line 31, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
-    color: #2c5999; }
+    color: #fb101c; }
   /* line 37, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus {
     outline: none; }
 
 /* line 43, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_typography.scss */
 hr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #BEBEBF;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -624,41 +624,36 @@ html {
   box-sizing: inherit; }
 
 /* line 1, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
-body {
-  background-color: #ddd;
-  color: #999; }
+.section-introduction {
+  background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)), url(../images/header_bg.jpg) center top/cover no-repeat;
+  height: 500px; }
 
-/* line 6, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
-.delete-me {
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  box-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  -ms-flex-align: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  height: 100vh; }
-  /* line 12, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
-  .delete-me .container {
-    text-align: center; }
-    /* line 15, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
-    .delete-me .container h1 {
-      font-weight: 200; }
+/* line 7, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+.section-introduction-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+/* line 12, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+.introduction-headline {
+  font-size: 64px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0; }
+
+/* line 18, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+.introduction-catchphrase {
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF; }
+
+/* line 27, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+.join-us-container {
+  text-align: center; }
+  /* line 29, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  .join-us-container > input {
+    width: 450px;
+    display: inline-block; }
+  /* line 33, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  .join-us-container > button {
+    text-transform: uppercase; }
