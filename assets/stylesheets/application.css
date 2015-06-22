@@ -626,7 +626,7 @@ html {
 /* line 1, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .section-introduction {
   background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(33, 33, 33, 0.9)), url(../images/header_bg.jpg) center top/cover no-repeat;
-  height: 500px; }
+  height: 100vh; }
 
 /* line 7, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .section-introduction-wrapper {
