@@ -12,7 +12,3 @@ inviteButton.on('click', function() {
     success: function() { alert("check your email!"); }
   });
 });
-(function() {
-
-
-}).call(this);

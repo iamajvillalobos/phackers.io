@@ -411,7 +411,7 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -444,7 +444,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1em; }
 
 /* line 16, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/base/_forms.scss */
@@ -467,7 +467,7 @@ textarea {
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -569,7 +569,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #BEBEBF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -580,7 +580,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -637,7 +637,7 @@ html {
 /* line 12, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .introduction-headline {
   font-size: 64px;
-  color: #FFFFFF;
+  color: #FC5B63;
   text-align: center;
   margin: 0; }
 
@@ -647,13 +647,24 @@ html {
   text-align: center;
   color: #FFFFFF; }
 
-/* line 27, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 24, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+.section-features {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, /Users/armanjonvillalobos/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+  .section-features::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 32, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .join-us-container {
   text-align: center; }
-  /* line 29, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  /* line 34, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
   .join-us-container > input {
     width: 450px;
     display: inline-block; }
-  /* line 33, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  /* line 38, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
   .join-us-container > button {
     text-transform: uppercase; }
