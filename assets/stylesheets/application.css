@@ -633,21 +633,33 @@ html {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
+  @media screen and (width: 375px) {
+    /* line 7, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+    .section-introduction-wrapper {
+      padding: 0 30px; } }
 
-/* line 12, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 16, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .introduction-headline {
   font-size: 64px;
   color: #FC5B63;
   text-align: center;
   margin: 0; }
+  @media screen and (width: 375px) {
+    /* line 16, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+    .introduction-headline {
+      font-size: 48px; } }
 
-/* line 18, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 26, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .introduction-catchphrase {
   font-size: 24px;
   text-align: center;
   color: #FFFFFF; }
+  @media screen and (width: 375px) {
+    /* line 26, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+    .introduction-catchphrase {
+      font-size: 20px; } }
 
-/* line 24, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 36, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .section-features {
   max-width: 68em;
   margin-left: auto;
@@ -658,13 +670,18 @@ html {
     content: "";
     display: table; }
 
-/* line 32, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 41, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .join-us-container {
   text-align: center; }
-  /* line 34, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  /* line 43, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
   .join-us-container > input {
     width: 450px;
     display: inline-block; }
-  /* line 38, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  /* line 47, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
   .join-us-container > button {
     text-transform: uppercase; }
+  @media screen and (width: 375px) {
+    /* line 52, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+    .join-us-container > input {
+      width: 100%;
+      display: block; } }
