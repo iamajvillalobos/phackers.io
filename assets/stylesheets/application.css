@@ -748,13 +748,14 @@ html {
 .introduction-catchphrase {
   font-size: 24px;
   text-align: center;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-bottom: 10px; }
   @media screen and (max-width: 414px) {
     /* line 31, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
     .introduction-catchphrase {
       font-size: 20px; } }
 
-/* line 41, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 42, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .section-features {
   max-width: 68em;
   margin-left: auto;
@@ -765,22 +766,22 @@ html {
     content: "";
     display: table; }
 
-/* line 46, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 47, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .join-us-container {
   text-align: center; }
-  /* line 48, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+  /* line 49, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
   .join-us-container > input {
-    width: 450px;
-    display: inline-block; }
-  /* line 52, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+    width: 50%;
+    margin: 0 auto 10px auto; }
+  /* line 54, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
   .join-us-container > button {
     text-transform: uppercase; }
   @media screen and (max-width: 414px) {
-    /* line 57, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+    /* line 59, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
     .join-us-container > input {
       width: 100%;
       display: block; } }
 
-/* line 64, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
+/* line 66, /Volumes/Data/Sites/phackers.io/source/assets/stylesheets/_global.scss */
 .total-users {
   color: #FC5B63; }
