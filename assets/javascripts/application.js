@@ -4,7 +4,6 @@
 (function() {
 
   var inviteButton = $('.invite-button');
-  var subdomain = "phackers";
   var currentUsersTotal = $('.total-users');
 
   getTotalUsers();
@@ -30,13 +29,13 @@
   });
 
   function getTotalUsers() {
-    var url = "https://" + subdomain + ".slack.com/api/users.list?token=" + token;
+    var url = "https://evening-temple-9783.herokuapp.com/api/v1/users/";
     $.ajax({
       type: "GET",
       url: url,
+      dataType: 'json',
       success: function(response) {
-        var totalUsers = response.members.length;
-        currentUsersTotal.text(totalUsers);
+        currentUsersTotal.text(response);
       }
     });
   }
